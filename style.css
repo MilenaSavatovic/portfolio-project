@@ -120,4 +120,10 @@ p {
   .email-link {
     font-size: 18px;
   }
+  .primary-link {
+    padding: 15px 10px;
+  }
+  .navigation-links a {
+    padding: 15px 10px;
+  }
 }
