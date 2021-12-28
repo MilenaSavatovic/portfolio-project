@@ -2,6 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="This is a profile page of a front-end developer from Novi Sad, Serbia"
+    />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Milena Savatović</title>
@@ -17,6 +21,20 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-8F9JTVPS6N"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
+
+      gtag('config', 'G-8F9JTVPS6N')
+    </script>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light top-fixed">
@@ -54,8 +72,10 @@
     <h1>Milena Savatović</h1>
     <h3>🇷🇸 Front-end developer, based in Novi Sad</h3>
     <div class="navigation-links">
-      <a href="about.html#contact" class="contact-link">Contact me</a>
-      <a href="about.html" class="about-link">About me</a>
+      <a href="about.html#contact" class="contact-link" title="Contact">
+        Contact me
+      </a>
+      <a href="about.html" class="about-link" title="About">About me</a>
     </div>
 
     <div class="container">

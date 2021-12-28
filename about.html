@@ -2,6 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Learn more about Milena Savatović, front-end developer based in Novi Sad"
+    />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
@@ -17,6 +21,20 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-8F9JTVPS6N"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
+
+      gtag('config', 'G-8F9JTVPS6N')
+    </script>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light top-fixed">
@@ -88,7 +106,7 @@
     </div>
     <div id="contact" class="mt-5">
       <h2>📮 Contact me</h2>
-      <a href="mailto:milenatul@gmail.com" class="email-link">
+      <a href="mailto:milenatul@gmail.com" class="email-link" title="Email">
         milenatul@gmail.com
       </a>
     </div>
